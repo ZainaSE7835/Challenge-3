@@ -6,9 +6,12 @@
 
 .nav-link{
     transition: all 0.5s ease-in-out;
-    color: rgb(1, 1, 19);
+    color: rgb(3, 3, 46);
 }
 
+.jumbotron{
+    background-color:rgba(37, 65, 155, 0.158);
+}
 .jumbotron img{
     width:150px;
 }
@@ -17,6 +20,7 @@
     margin-top: 40px;
     margin-left: 50px;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .jumbotron p{
@@ -51,8 +55,8 @@
 }
 
 .social img{
-  width: 40px;
-  height:40px;
+    width: 40px;
+    height:40px;
 }
 
 .footer{
@@ -71,47 +75,30 @@
 }
 
 .card-header{
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .list-group-item{
     border: none;
 }
 
-.card-1{
-    background-image: url(../../Assets/Images/02-portfolio-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;   
-}
-
-.card-2{
-    background-image: url(../../Assets/Images/02-portfolio-3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;   
-}
-
-.card-3{
-    background-image: url(../../Assets/Images/02-portfolio-4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;   
-}
-
-.card-4{
-    background-image: url(../../Assets/Images/02-portfolio-2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;   
-}
-
-.card img{
-    width:400px;
-    height:400px;
-}
-
 .card-body{
     background-size: cover;
     background-color: white;
+}
+
+.card img{
+    width: 100%;
+    height: 400px;
+}
+
+.jumbotron{
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn{
+    background-color: rgba(52, 52, 219, 0.507);
 }
