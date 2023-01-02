@@ -1,6 +1,8 @@
 # Challenge-3
 Bootstrap-Portfolio
 
+![Screenshot of Portfolio webpage](./assets/images/Capture.PNG)
+
 ## Description:
 The aim of this project was to recreate my portfolio from challenge-2 using Bootstrap to save time writing HTML and CSS code.
 
