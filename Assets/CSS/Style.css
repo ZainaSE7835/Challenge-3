@@ -1,19 +1,25 @@
+/*Nav bar moved to the right*/
 .nav{
     float: right;
     margin-right: 100px;
 }
 
-
+/*hover effect added to nav bar links*/
 .nav-link{
     transition: all 0.5s ease-in-out;
-    color: rgb(3, 3, 46);
+    color: black;
+}
+
+/*jumbotron styling*/
+.jumbotron{
+    background-color:rgba(192, 34, 81, 0.158);
 }
 
 .jumbotron{
-    background-color:rgba(37, 65, 155, 0.158);
-}
-.jumbotron img{
-    width:150px;
+    background-image: url(../../assets/images/20220724_160547\ \(2\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center ;
 }
 
 .jumbotron h1{
@@ -21,11 +27,15 @@
     margin-left: 50px;
     margin-bottom: 10px;
     font-weight: bold;
+    color:black;
 }
 
 .jumbotron p{
     margin-left: 50px;
+    color:black;
 }
+
+/*Margins changed to create space around the different elements*/
 
 .row{
     margin-left: 20%;
@@ -59,21 +69,6 @@
     height:40px;
 }
 
-.footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-top: 1px solid black;
-    margin: 100px 50px 0px 50px;
-}
-
-
-.copyright{
-    text-align: center;
-    padding: 20px 0px 20px 0px;
-    width:100%;
-}
-
 .card-header{
     font-weight: bold;
 }
@@ -92,13 +87,21 @@
     height: 400px;
 }
 
-.jumbotron{
-    background-image: url();
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
+/*button colour changed*/
 .btn{
     background-color: rgba(52, 52, 219, 0.507);
+}
+/*Flexbox*/
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+    margin: 100px 50px 0px 50px;
+}
+
+.copyright{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    width:100%;
 }
